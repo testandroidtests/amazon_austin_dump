@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+   Copyright (c) 2019 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<policy>
+    <!-- Disable tablet launcher for child profile because com.amazon.tahoe
+         is the child profile launcher. -->
+    <entry>
+        <user type="child"/>
+        <event type="onUserSwitch"/>
+        <action type="disable"/>
+        <component name="com.amazon.firelauncher"/>
+    </entry>
+</policy>

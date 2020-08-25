@@ -1,0 +1,13 @@
+# austin-user 5.1.1 LVY48F 55.6.5.7_user_657611720 release-keys
+- manufacturer: amazon
+- platform: mt8127
+- codename: austin
+- flavor: austin-user
+- release: 5.1.1
+- id: LVY48F
+- incremental: 55.6.5.7_user_657611720
+- tags: release-keys
+- fingerprint: Amazon/austin/austin:5.1.1/LVY48F/55.6.5.7_user_657611720:user/release-keys
+- brand: Amazon
+- branch: austin-user-5.1.1-LVY48F-55.6.5.7_user_657611720-release-keys
+- repo: amazon_austin_dump
